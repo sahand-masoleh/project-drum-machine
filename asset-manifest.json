@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/project-drum-machine/static/css/main.f923f284.chunk.css",
+    "main.js": "/project-drum-machine/static/js/main.4e0d3dca.chunk.js",
+    "main.js.map": "/project-drum-machine/static/js/main.4e0d3dca.chunk.js.map",
+    "runtime-main.js": "/project-drum-machine/static/js/runtime-main.6384686f.js",
+    "runtime-main.js.map": "/project-drum-machine/static/js/runtime-main.6384686f.js.map",
+    "static/js/2.29f4f1d2.chunk.js": "/project-drum-machine/static/js/2.29f4f1d2.chunk.js",
+    "static/js/2.29f4f1d2.chunk.js.map": "/project-drum-machine/static/js/2.29f4f1d2.chunk.js.map",
+    "index.html": "/project-drum-machine/index.html",
+    "precache-manifest.3013891faa4cd11150924f5274ad98ed.js": "/project-drum-machine/precache-manifest.3013891faa4cd11150924f5274ad98ed.js",
+    "service-worker.js": "/project-drum-machine/service-worker.js",
+    "static/css/main.f923f284.chunk.css.map": "/project-drum-machine/static/css/main.f923f284.chunk.css.map",
+    "static/js/2.29f4f1d2.chunk.js.LICENSE.txt": "/project-drum-machine/static/js/2.29f4f1d2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/project-drum-machine/static/media/Dited.f1422591.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6384686f.js",
+    "static/js/2.29f4f1d2.chunk.js",
+    "static/css/main.f923f284.chunk.css",
+    "static/js/main.4e0d3dca.chunk.js"
+  ]
+}
