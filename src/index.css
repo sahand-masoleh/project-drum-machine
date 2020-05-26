@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Dited;
+  src: url("./Dited.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  background: linear-gradient(to bottom, #eea456, #982d8b);
+}
+#drum-machine {
+  min-width: 50vw;
+  max-width: 100vw;
+  display: grid;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    "display display display display display";
+  grid-auto-flow: column;
+  gap: 1em;
+}
+
+#display {
+  font-family: "Dited";
+  color: greenyellow;
+  width: 100%;
+  background-color: darkslategrey;
+  grid-area: display;
+  font-size: 3em;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  box-shadow: 0 0 0.1em 0.05em rgba(0, 0, 0, 0.2) inset;
+  border: 0.1vmin solid black;
+}
+
+.drum-pad {
+  font-size: 2em;
+  background: white;
+  width: 15vmin;
+  height: 20vmin;
+  display: grid;
+  grid-column: 100%;
+  place-items: center;
+  place-content: center;
+}
+
+.instrument {
+  font-size: 0.5em;
+}
+
+.playing {
+  color: aqua;
+  box-shadow: none;
+}
+.not-playing {
+  box-shadow: 0 0.2em 0 0 grey;
+  transform: translate(0, -0.1em);
+  transition: all 0.5s linear;
 }
